@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  
+
+}
+.myMargin{
+    margin: 25px;
+    padding: 2%;
+    
+}
+.login_body{
+    background-color: rgb(247, 177, 177);
+}
+.body{
+  background-color: rgb(247, 177, 177);
+}
+.login_form{
+    border:4px solid rgb(247, 177, 177);
+    
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.column {
+    float: left;
+    width: 33.33%;
+   
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: rgb(147, 187, 149);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(204, 204, 194);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:active {
+    color: rgb(104, 235, 245);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  /*  */
+  .text-align{
+text-align: justify;
+
+  }
+  /*  */
+  .carousel-inner > .item {
+    height: 400px;
+ }
+ 
+ .font-family{
+   font-family: Arial, Helvetica, sans-serif;
+ }
